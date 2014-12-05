@@ -5,8 +5,16 @@
 ---
 status:       PUBLISHED
 technologies: [Android]
-categories:   [Notification]
+categories:   [Notification, UI]
 languages:    [Java]
 solutions:    [Mobile]
 github:       android-CustomNotifications
+level:        BEGINNER
+icon:         screenshots/icon-web.png
+apiRefs:
+    - android:android.app.Notification
+    - android:android.app.NotificationManager
+    - android:android.app.PendingIntent
+    - android:android.support.v4.app.NotificationCompat
+    - android:android.widget.RemoteViews
 license: apache2
