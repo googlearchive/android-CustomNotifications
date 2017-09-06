@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
         RemoteViews contentView = new RemoteViews(getPackageName(), R.layout.notification);
 
         // Set text on a TextView in the RemoteViews programmatically.
-        final String time = DateFormat.getTimeInstance().format(new Date()).toString();
+        final String time = DateFormat.getTimeInstance().format(new Date());
         final String text = getResources().getString(R.string.collapsed, time);
         contentView.setTextViewText(R.id.textView, text);
 
